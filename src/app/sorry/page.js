@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 export default function Sorry() {
     const router = useRouter();
     return (
-        <main className="relative h-screen overflow-hidden px-6 py-10">
+        <main className="relative min-h-[100svh] overflow-x-hidden px-6 py-10">
 
             {/* Background Image */}
             <div
@@ -22,7 +22,7 @@ export default function Sorry() {
             <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/45 to-black/20" />
 
             {/* Content */}
-            <div className="relative z-10 flex h-full items-center">
+            <div className="relative z-10 flex min-h-[calc(100svh-5rem)] items-center">
 
                 {/* Left Side Content */}
                 <div className="w-full max-w-xl text-left ml-2 md:ml-10 lg:ml-16">
